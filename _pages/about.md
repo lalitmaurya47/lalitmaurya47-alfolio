@@ -6,11 +6,11 @@ subtitle: <a href='https://www.port.ac.uk/about-us/structure-and-governance/our-
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.png
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>0.16</p>
-    <p>Buckingham Building, Lion Terrace</p>
+    <p>0.16, Buckingham Building/p>
+    <p>Lion Terrace</p>
     <p>Portsmouth, PO1 3HE, UK</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
