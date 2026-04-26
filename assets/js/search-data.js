@@ -413,8 +413,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "news-announcement-3",
-          title: 'Announcement_3',
+          section: "News",},{id: "news-ieee-wacv-2026-tucson-arizona-usa",
+          title: 'IEEE WACV 2026, Tucson, Arizona, USA',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/lalitmaurya47-alfolio/news/announcement_3.html";
