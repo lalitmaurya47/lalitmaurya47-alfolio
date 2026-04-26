@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/lalitmaurya47-alfolio/";
     },
-  },{id: "nav-blog",
-          title: "blog",
+  },{id: "nav-highlights",
+          title: "Highlights",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/lalitmaurya47-alfolio/blog/";
+            window.location.href = "/lalitmaurya47-alfolio/news/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/lalitmaurya47-alfolio/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/lalitmaurya47-alfolio/repositories/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
@@ -44,35 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/lalitmaurya47-alfolio/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/lalitmaurya47-alfolio/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/lalitmaurya47-alfolio/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/lalitmaurya47-alfolio/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/lalitmaurya47-alfolio/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -448,11 +413,11 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "news-15-03-2026",
-          title: '15_03_2026',
+          section: "News",},{id: "news-announcement-3",
+          title: 'Announcement_3',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/lalitmaurya47-alfolio/news/15_03_2026.html";
+              window.location.href = "/lalitmaurya47-alfolio/news/announcement_3.html";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
