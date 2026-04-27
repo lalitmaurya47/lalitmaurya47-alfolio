@@ -118,21 +118,39 @@
 
 @article{maurya2026flood,
   
-  title={Assessing Geo-Foundational Models for Flood Inundation Mapping: Benchmarking models for Sentinel-1, Sentinel-2, and Planetscope},
-  author={Kaushik, S. and Maurya, Lalit and Tellman, E. and Zhang, Z.},
-  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  author={Kaushik, Saurabh and Maurya, Lalit and Tellman, Beth and Zhang, ZhiJie},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={Assessing Geo-Foundational Models for Flood Inundation Mapping: Benchmarking Models for Sentinel-1, Sentinel-2, and Planetscope}, 
   year={2026},
+  volume={19},
+  number={},
+  pages={5649-5665},
+  abstract={Geo-foundational models (GFMs) enable fast and reliable extraction of spatiotemporal information from satellite imagery, improving flood inundation mapping by leveraging location and time embeddings. Despite their potential, it remains unclear whether GFMs outperform traditional models such as U-Net. A systematic comparison across sensors and data availability scenarios is still lacking, which is essential to guide end-users in model selection. To address this, we evaluate three GFMs—Prithvi 2.0, Clay V1.5, dynamic one-for-all (DOFA)—and UViT (a Prithvi variant), against TransNorm, U-Net, DeepLabv3+, and Attention U-Net using PlanetScope (PS), Sentinel-1, and Sentinel-2. We observe competitive performance among all GFMs, with 2% –5% variation between the best and worst models across sensors. Clay outperforms others on PS (0.79 mIoU) and Sentinel-2 (0.72), while Prithvi leads on Sentinel-1 (0.57). In leave-one-region-out cross-validation across five regions, Clay shows slightly better performance across all sensors, with mIoU scores of 0.72, 0.66, and 0.51 for PanetScope, Sentinel-2, and Sentinel-1 respectively, compared to Prithvi (0.70, 0.64, 0.49) and DOFA (0.67, 0.64, 0.49). Across all 19 sites, cross-validation reveals a 4% improvement by Clay over U-Net. Visual inspection highlights Clay’s superior ability to retain fine details. Few-shot experiments show Clay achieves 0.64 mIoU on PS with just five training images, outperforming Prithvi (0.24) and DOFA (0.35). In terms of computational time, Clay is a better choice due to its smaller model size (26M parameters), making it approximately 3× faster than Prithvi (650M) and 2× faster than DOFA (410M). Our results suggest GFMs offer small to moderate improvements in flood mapping accuracy at lower computational cost and labeling effort.},
+  keywords={Floods;Sensors;Biological system modeling;Data models;Computational modeling;Sentinel-2;Sentinel-1;Benchmark testing;Image sensors;Transformers;Clay;convolutional neural network (CNN);dynamic one-for-all (DOFA);flood;geo-foundation models;Prithvi;remote sensing;vision transformers (ViTs)},
+  doi={10.1109/JSTARS.2026.3656855},
+  ISSN={2151-1535},
+  month={},
   abbr        = {IEEE JSTAR},
   bibtex_show = {true},
+  preview     = {kaush7.gif},
 }
 
 @article{kaushik2025glacier,
-  title={Debris covered glacier mapping using newly annotated multisource remote sensing data and geo-foundational model},
-  author={Kaushik, S. and Maurya, Lalit and Tellman, E. and Zhang, G. and Dharpure, J. K.},
-  journal={Science of Remote Sensing},
-  year={2025},
+  title = {Debris covered glacier mapping using newly annotated multisource remote sensing data and geo-foundational model},
+  journal = {Science of Remote Sensing},
+  volume = {12},
+  pages = {100319},
+  year = {2025},
+  issn = {2666-0172},
+  doi = {https://doi.org/10.1016/j.srs.2025.100319},
+  url = {https://www.sciencedirect.com/science/article/pii/S2666017225001257},
+  author = {Saurabh Kaushik and Lalit Maurya and Elizabeth Tellman and Guoqing Zhang and Jaydeo K. Dharpure},
+  keywords = {Geo-foundational models, Deep learning, Supraglacial debris, Glaciers, Remote sensing},
+  abstract = {The automated mapping of debris covered glaciers remains challenging due to spectral similarity between supraglacial debris (on-glaciers) and periglacial debris (off-glaciers). Deep learning offers promising capabilities, yet the lack of high-quality publicly available datasets and limited exploration of optimal model architecture constrain progress in this domain. To address this, we introduce the Global Supraglacial Debris Cover Dataset (GSDD), consisting of 1876 images (∼49,000.00 km2) collected globally from diverse glacierized regions, including High Mountain Asia, Andes, Western Canada, Alaska, and Swiss Alps, to incorporate the heterogeneity of glacial features and environments. This multisource remote sensing dataset includes 10 spectral bands—Blue, Green, Red, Near-Infrared, Shortwave Infrared (SWIR1 & SWIR2), Normalized Difference Rock Index (NDRI), Slope, Elevation, and Velocity—providing critical information to distinguish glacier debris. To evaluate the efficacy of deep learning models for mapping glacier debris, we compare Prithvi Geo-Foundational Model (GFM) combined with multiple decoders, CNN-based models (UNet, Attention U-Net, and DeepLabv3+), a Vision Transformer-based model (TransNorm), and variant of the Prithvi GFM (i.e., UViT). Our results show Prithvi GFM with UperNet decoder outperformed all, achieving mIoU = 0.80 and F1-score = 0.91, surpassing DeepLabv3+ (0.71 mIoU), Attention U-Net (0.73), U-Net (0.72), TransNorm (0.71), and UViT (0.70). Our results demonstrate significant methodological advances in accurately mapping glacier termini, along with the identification of glacier snouts. Feature analysis identified the optimal band combination (B-G-NIR-SWIR-Slope-Elevation) for debris mapping. The GSDD dataset enables direct comparison, development, and evaluation of deep learning models, supporting advancement in fast and reliable automated glacier mapping.}
+  
   abbr        = {SRS},
   bibtex_show = {true},
+  preview     = {kaushik_srs.jpg},
 }
 }
 
@@ -141,36 +159,50 @@
   author={Olabisi, O. and Maurya, Lalit and Bader-El-Den, M.},
   journal={Pattern Analysis and Applications},
   year={2025},
-  abbr        = {Springer},
+  doi={10.1007/s10044-025-01545-3},
+  abbr        = {PAA},
   bibtex_show = {true},
+  preview     = {LEL.png},
 }
 
 @article{jacobson2025prostate,
   title={Prostate MR image segmentation using a multi-stage network approach},
   author={Jacobson, L. E. O. and Bader-El-Den, M. and Maurya, Lalit and Hopgood, A. and Tamma, V. and Masum, S. and Prendergast, D. and Osborn, P.},
   journal={International Urology and Nephrology},
-  year={2025}
+  year={2025},
+  abbr        = {Springer},
+  bibtex_show = {true},
+  preview     = {lars.png},
 }
 
 @article{ince2025sausage,
   title={Predicting spoilage intensity level in sausage products using explainable machine learning and GAN-based data augmentation},
   author={Ince, V. and Bader-El-Den, M. and Esmeli, R. and Maurya, Lalit and Sari, O. F.},
   journal={Food and Bioprocess Technology},
-  year={2025}
+  year={2025},
+  abbr        = {Food and Bio. Tech.},
+  bibtex_show = {true},
+  preview     = {volkan_p.jpg},
 }
 
 @article{maurya2025mctfwc,
   title={MCTFWC: a multiscale CNN-transformer fusion based model for wound image classification},
   author={Maurya, Lalit and Mirza, S.},
   journal={Signal, Image and Video Processing},
-  year={2025}
+  year={2025},
+  abbr        = {Springer},
+  bibtex_show = {true},
+  preview     = {wound_model.png},
 }
 
 @article{maurya2025apnea,
   title={Contactless apnea event detection using visible-thermal imaging},
   author={Maurya, Lalit and Zwiggelaar, Reyer and Chawla, Deepak and Mahapatra, Prasant},
   journal={Signal, Image and Video Processing},
-  year={2025}
+  year={2025},
+  abbr        = {Springer},
+  bibtex_show = {true},
+  preview     = {apnea_wave.jpg},
 }
 
 @article{kumar2025echocardiogram,
@@ -179,7 +211,10 @@
   journal={Diagnostics},
   volume={15},
   number={6},
-  year={2025}
+  year={2025},
+  abbr        = {Diagnostics},
+  bibtex_show = {true},
+  preview     = {vikas_echo.jpg},
 }
 
 
@@ -194,6 +229,8 @@
   url={https://spie.org/photonics-west/presentation/Photoacoustic-image-mosaicing-via-deep-learning/PC12842-104#_=_},
   selected={true},
   preview     = {photoacoustic_hand.jpg},
+  abbr        = {SPIE},
+  bibtex_show = {true},
 }
 
 @incollection{maurya2024contactless,
@@ -207,6 +244,9 @@
   url={https://www.taylorfrancis.com/chapters/edit/10.1201/9781003461852-8/contactless-monitoring-newborns-using-infrared-thermography-review-lalit-maurya-roop-singh-deepak-chawla-prasant-mahapatra},
   selected={true},
   preview     = {newborn_paper.jpg},
+  abbr        = {Book Chapter},
+  bibtex_show = {true},
+  pdf         = {Chapter_6_revised.pdf},
 }
 
 @article{maurya2023noncontact,
@@ -221,6 +261,8 @@
   url={https://link.springer.com/article/10.1007/s10877-022-00945-8},
   selected={true},
   preview     = {newborn_paper.jpg},
+  abbr        = {Diagnostics},
+  bibtex_show = {true},
 }
 
 @article{maurya2022contrast,
@@ -235,6 +277,8 @@
   url={https://doi.org/10.1016/j.jksuci.2021.07.008},
   preview     = {breathing_human.jpg},
   google_scholar_id = {roLk4NBRz8UC},
+  abbr        = {Diagnostics},
+  bibtex_show = {true},
 }
 
 @article{maurya2022registration,
@@ -247,6 +291,8 @@
   doi={10.1016/j.infrared.2021.104001},
   url={https://doi.org/10.1016/j.infrared.2021.104001},
   preview     = {registration+paper.jpg},
+  abbr        = {Diagnostics},
+  bibtex_show = {true},
 }
 
 @article{maurya2021simultaneous,
@@ -260,6 +306,8 @@
   doi={10.1109/JSEN.2021.3124615},
   url={https://doi.org/10.1109/JSEN.2021.3124615},
   preview     = {multiple_breathing.jpg},
+  abbr        = {Diagnostics},
+  bibtex_show = {true},
 }
 
 @article{maurya2021rgbthermal,
@@ -273,6 +321,8 @@
   doi={10.1016/j.bbe.2021.07.002},
   url={https://doi.org/10.1016/j.bbe.2021.07.002},
   preview     = {breathing_human.jpg},
+  abbr        = {Diagnostics},
+  bibtex_show = {true},
 }
 
 @article{maurya2021review,
@@ -283,6 +333,8 @@
   doi={10.1016/j.compbiomed.2021.104321},
   url={https://doi.org/10.1016/j.compbiomed.2021.104321},
   preview     = {breathing_human.jpg},
+  abbr        = {Diagnostics},
+  bibtex_show = {true},
 }
 
 @incollection{maurya2020automatic,
@@ -295,6 +347,8 @@
   doi={10.1007/978-981-15-2740-1_5},
   url={https://link.springer.com/chapter/10.1007/978-981-15-2740-1_5},
   preview     = {breathing_human.jpg},
+  abbr        = {Diagnostics},
+  bibtex_show = {true},
 }
 
 @article{maurya2019fusion,
@@ -308,6 +362,8 @@
   doi={10.4018/IJAMC.2019070108},
   url={https://doi.org/10.4018/IJAMC.2019070108},
   preview     = {breathing_human.jpg},
+  abbr        = {Diagnostics},
+  bibtex_show = {true},
 }
 
 @incollection{shivali2018hybrid,
@@ -315,7 +371,9 @@
   author={Shivali and Maurya, Lalit and Sharma, Ekta and Mahapatra, Prasant and Doegar, Amit},
   booktitle={Advanced Computing and Communication Technologies},
   pages={11--21},
-  year={2018}
+  year={2018},
+  abbr        = {Diagnostics},
+  bibtex_show = {true},
  
 }
 
@@ -329,6 +387,8 @@
   doi={10.1016/j.asoc.2016.10.012},
   url={https://doi.org/10.1016/j.asoc.2016.10.012},
   preview     = {sso_based_paper.jpg},
+  abbr        = {Diagnostics},
+  bibtex_show = {true},
 }
 
 @incollection{maurya2016modified,
@@ -338,4 +398,6 @@
   pages={11--21},
   year={2016},
   preview     = {mcs_paper.JPG},
+  abbr        = {Diagnostics},
+  bibtex_show = {true},
 }

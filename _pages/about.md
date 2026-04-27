@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='https://www.port.ac.uk/about-us/structure-and-governance/our-people/our-staff/lalit-maurya'>Senior Research Associate</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.port.ac.uk/about-us/structure-and-governance/our-people/our-staff/lalit-maurya'>Senior Research Associate</a>. #Address. Contacts. Motto. Etc.
 
 profile:
   align: right
