@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Cryo Bench
+title: Cryo-Bench
 date: 2026-03-03 16:40:16
 description: march & april, looking forward to summer
-tags: benchmarking
-categories: preprint
+tags: FoundationModels GeoAI Benchmarking Cryosphere RemoteSensing
+categories: linkedin-post
 ---
 
 
