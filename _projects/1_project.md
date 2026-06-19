@@ -3,7 +3,7 @@ title: Image Enhancement using Metaheuristic Algorithms
 description: Master's dissertation project on image enhancement, contrast enhancement, image fusion, brightness preservation, unsharp masking, and multilevel thresholding using metaheuristic optimization algorithms.
 img: assets/img/projects/image-enhancement/cover.jpg
 importance: 1
-category: research
+category: work
 related_publications: true
 ---
 
