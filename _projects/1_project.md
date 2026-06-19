@@ -86,7 +86,7 @@ This approach used social spider optimization for image fusion-based contrast en
   <div class="col-sm mt-3 mt-md-0">
     <a href="{{ '/assets/img/image-enhancement/sso3.jpg' | relative_url }}">
       {% include figure.liquid loading="eager"
-         path="/assets/img/image-enhancement/sso3.jpg
+         path="/assets/img/image-enhancement/sso3.jpg"
          class="img-fluid rounded z-depth-1" %}
     </a>
   </div>
