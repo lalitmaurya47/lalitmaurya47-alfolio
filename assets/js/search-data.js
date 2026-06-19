@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/lalitmaurya47-alfolio/cv/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-cryo-bench",
+        
+          title: "Cryo Bench",
+        
+        description: "march &amp; april, looking forward to summer",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/lalitmaurya47-alfolio/preprint/2026/03/03/cryo-bench.html";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -394,17 +405,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/lalitmaurya47-alfolio/sample-posts/2015/05/15/images.html";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/lalitmaurya47-alfolio/sample-posts/2015/03/15/formatting-and-links.html";
           
         },
       },{id: "books-the-godfather",
