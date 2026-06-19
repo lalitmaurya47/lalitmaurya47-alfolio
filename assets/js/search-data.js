@@ -55,15 +55,37 @@ ninja.data = [{
             window.location.href = "/lalitmaurya47-alfolio/linkedin-post/2026/03/03/cryo-bench.html";
           
         },
-      },{id: "post-a-post-with-plotly-js",
+      },{id: "post-flood-inudation-mapping",
         
-          title: "a post with plotly.js",
+          title: "Flood Inudation Mapping",
         
-        description: "this is what included plotly.js code could look like",
+        description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/lalitmaurya47-alfolio/linkedin-post/2025/03/26/plotly.html";
+            window.location.href = "/lalitmaurya47-alfolio/linkedin-post/2026/02/12/flood-mapping.html";
+          
+        },
+      },{id: "post-unsupervised-domain-adaptation-uda",
+        
+          title: "Unsupervised Domain Adaptation (UDA)",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/lalitmaurya47-alfolio/linkedin-post/2025/11/17/tcsa-uda.html";
+          
+        },
+      },{id: "post-debris-covered-glacier-mapping",
+        
+          title: "Debris-Covered Glacier Mapping",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/lalitmaurya47-alfolio/linkedin-post/2025/11/02/debris-covered-glacier-mapping.html";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
